@@ -1,0 +1,151 @@
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+.sectionstyle{
+    width:90%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.msstyle{
+    
+    
+    height: 500px;
+    background: url(images/image3.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+  }
+  .msedge{
+      width:35%;
+      background: #fff;
+      padding:50px;
+  }
+  .msedge-2{
+      width: 95%;
+      background: #fff;
+      padding: 30px;
+      margin: -80px auto 50px;
+  }
+
+.header{
+    width:90%;
+    margin: auto;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-logo{
+    height: 28px;
+    padding-bottom: 5px;
+}
+.nav-item{
+    padding-left: 5px;
+}
+.nav-signin{
+    height: 35px;
+}
+.btn1,.btn2,.btn3,.btn5{
+    border-radius: 0px !important;
+    
+}
+.btn2{
+    padding: 1px 10px!important;
+}
+.btn3{
+    background-color: rgb(200, 198, 198) !important;
+    color: black !important;
+    text-decoration: none;
+    border: none !important;    
+}
+.back-btn{
+    display: flex;
+    justify-content: end;
+    
+}
+ .btn3:hover{
+    background-color: #f2f2f2 !important;
+} 
+
+.carousel-item{
+    position: relative;
+    z-index: 1;
+}
+.carousel-caption{
+    position: absolute;
+    top: 20%;
+    left: 8% !important;
+}
+.carousel-caption h3,p{
+    color: black;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.carousel-caption h3{
+    font-size: 35px;
+}
+.carousel-caption a{
+    position: absolute;
+    left:12rem;
+    top:12.5rem;
+    text-decoration: none;
+}
+.carousel-2{
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    margin: 10px auto 0px;
+}
+.carousel-caption button{
+    position: absolute;
+   left: 0;
+}
+main{
+    margin: 40px 0;
+    
+}
+
+.card{
+    border: none !important;
+}
+
+.card-body{
+    padding: 5px 0 !important 
+}
+footer{
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+footer a{
+    text-decoration:none;
+    color: #616161;
+    font-size: 11px;
+}
+footer p{
+    color: rgb(97,97,97);
+    font-size: 15px;
+}
+
+.lastsec{
+    display: flex;
+    justify-content: end;
+}
+.lastsec a{
+    padding-left: 30px;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
